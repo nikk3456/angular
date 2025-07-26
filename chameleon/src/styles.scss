@@ -1,0 +1,51 @@
+@import "fonts";
+:root{
+    --dark-color: #411313;
+    --light-color: #f7e6fa;
+    --primary-color: #e90000;
+}
+
+
+body{
+    font-family: 'Belcanto-Modern';
+    background: var(--dark-color);
+    color: var(--light-color);
+}
+
+.skill-tag{
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 1px solid var(--light-color);
+    display: inline;
+    font-size: 12px;
+    font-weight: 700;
+    margin-right: 4px;
+}
+
+.skill-tag__main{
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 1px solid var(--primary-color);
+    display: inline;
+    font-size: 12px;
+    color: var(--primary-color);
+    font-weight: 700;
+    margin-right: 4px;
+}
+
+.btn{
+    border: none;
+    background: var(--primary-color);
+    color: var(--dark-color);
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.h6{
+    font-size: 30px;
+    line-height: 24px;
+    font-weight: 800;
+    -webkit-text-stroke: 0.02px var(--primary-color);
+}
